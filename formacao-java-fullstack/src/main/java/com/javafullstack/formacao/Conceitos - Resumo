@@ -1,0 +1,49 @@
+
+
+        Modificadores de acesso (definem visibilidade, ou seja, quem pode acessar classes, métodos, construtores e atributos)
+        São eles: public, protected, default e private
+            1 - public: qualquer classe de qualquer pacote;
+            2 - protected: classes do mesmo pacote ou subclasses (herança) mesmo em outro pacote
+            3 - default: apenas classes do mesmo pacote(sem palavra-chave explícita)
+            4 - private: apenas dentro da própria classe
+
+         Variáveis e Tipos de dados
+         São eles: Primitivos e Tipos de Referência (objetos)
+            1 - Primitivos:
+                1.1 - byte: Tamanho de 1 byte com valores entre -128 a 127 (pequenos números inteiros)
+                1.2 - short: Tamanho de 2 bytes com valores entre -32.768 a 32.767 (números inteiros curtos)
+                1.3 - int: Tamanho de 4 bytes com valores entre -2 bi e 2 bi (números inteiros)
+                1.4 - long: Tamanho de 8 bytes com valores muito grandes (números inteiros longos)
+                1.5 - float: Tamanho de 4 bytes (3.14f números decimais com menos precisão)
+                1.6 - double: Tamanho de 8 bytes (3.14159 números decimais com mais precisão)
+                1.7 - char: Tamanho de 2 bytes ('A', '1' armazena um único caracter)
+                1.8 - boolean: Tamanho de 1 bit podendo ser true ou false (verdadeiro ou falso)
+
+            2 - Tipos de Referência (objetos)
+                2.1 - String: "Olá, Mundo!"
+                2.2 - Scanner: new Scanner(System.in)
+                2.3 - List, ArrayList: new ArrayList<>()
+                2.3 - LocalDate, Date: LocalDate.now()
+                2.4 - Quaquer classe criada com new
+
+        ATENÇÃO:
+
+        Conversões e compatibilidades
+            - int pode virar long sem problema (automático).
+            - double pode armazenar um int (automático), mas o contrário precisa de conversão explícita.
+            - String não pode ser convertida automaticamente para int ou double — use Integer.parseInt() ou Double.parseDouble().
+
+        Estruturas condicionais
+            1 - if, if else e else: decisão simples encadeada e decisões multiplas
+            2 - switch: multiplos casos
+
+        Estruturas de repetição
+            1 - while: repete enquanto a condição for verdadeira
+            2 - for: quando se sabe o número de repetições
+            3 - do-while: executa pelo menos uma vez
+            4 - for-each: para percorrer coleções ou array's
+
+        Bloco de códigos(métodos)
+        Programação orientada a objetos - POO
+            - classes, objetos, atributos + tipos de dados, métodos, construtores( com e sem parâmetros), herança, poliformismo(sobrecarga e sobreescrita),
+              associação(composição e agregação), interface, classes e métodos abstratos, coleções(List, Set, Map e Queue) e pacotes
